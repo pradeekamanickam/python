@@ -1,0 +1,14 @@
+name= input(" ENTER EMPLOYEE NAME\n")
+eid= input(" ENTER EMPLOYEE ID\n")
+hours= int(input(" ENTER HOURS WORKED\n"))
+wage= float( input( " ENTER HOUSLY WAGE\n"))
+gross=hours* wage
+tax= gross* 0.10
+net=  gross-tax
+print( "\n-----SALARY SLIP----")
+print("Name =",name)
+print(" ID:",eid)
+print(" Groass salary", gross)
+print( " Tax :", tax)
+print( "Net salary :", net)
+
